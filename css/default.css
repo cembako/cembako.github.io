@@ -19,9 +19,6 @@ img{
 
 #content{
   position: absolute;
-  border: 1px solid white;
-  padding: 70px 70px 90px 70px;
-  border-radius: 20px;
 }
 
 #content h1, h3, h2, button{
