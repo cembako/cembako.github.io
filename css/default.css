@@ -23,7 +23,7 @@ img{
 
 #content h1, h3, h2, button{
   margin-left: 20px;
-  display: inline-block;
+  display: block;
   vertical-align: middle;
   margin-top: 0;
 }
