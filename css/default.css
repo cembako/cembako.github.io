@@ -101,13 +101,10 @@ body{
   width: 180px;
   height: 180px;
   margin: 50px;
-  border-radius: 50%;
-  background-color: #66B3FF;
   color: white;
   padding: 30px 15px;
   line-height: 15px;
-  text-align: center;
-  border: 3px dashed blue;
+
+
   opacity: 0.9;
-  box-shadow: 5px 5px 10px black;
 }
