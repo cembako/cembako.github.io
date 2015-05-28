@@ -1,10 +1,11 @@
 body{
-  background-color: #DF3C3C;
+  background-color: #3C0B0B;
   color: white;
 }
 
-img{
-  width: 150px;
+#logo{
+  width: 200px;
+  margin-top: -20px;
 }
 
 #outer{
@@ -13,43 +14,97 @@ img{
   margin-top: -100px;
   height: 100px;
   right: 50%;
-  margin-right: -350px;
-  width: 700px;
+  margin-right: -250px;
+  width: 500px;
 }
 
 #content{
   position: absolute;
 }
 
-#content h1, h3, h2, button{
+#content h1, h3, h2, span{
   margin-left: 20px;
-  display: block;
   vertical-align: middle;
   margin-top: 0;
 }
 
-.btn{
-  background-color: transparent;
-  border: 1px solid white;
-  border-radius: 5px;
-  margin-right: 5px;
+#content h1{
+  color: #DC2626;
 }
 
-.btn:hover{
-  background-color: black;
-  border: 1px solid white;
-  border-radius: 5px;
-  color: white;
+/*button-outline*/
+.btn-outline {
+    background-color: transparent;
+    color: inherit;
+    transition: all .5s;
 }
 
-a{
-  color: white;
+.btn-primary.btn-outline {
+    color: #428bca;
 }
 
-a:hover{
-  color: white;
-  padding-bottom: 10px;
-  border-bottom: 1px solid white;
+.btn-success.btn-outline {
+    color: #5cb85c;
+}
+
+.btn-info.btn-outline {
+    color: #5bc0de;
+}
+
+.btn-warning.btn-outline {
+    color: #f0ad4e;
+}
+
+.btn-danger.btn-outline {
+    color: #d9534f;
+}
+
+.btn-primary.btn-outline:hover,
+.btn-success.btn-outline:hover,
+.btn-info.btn-outline:hover,
+.btn-warning.btn-outline:hover,
+.btn-danger.btn-outline:hover {
+    color: #fff;
+}
+
+#info{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+}
+
+#info button{
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+#info:hover{
   text-decoration: none;
-  border-radius: 2px;
+}
+
+#myModal{
+  color: black;
+}
+
+#bg{
+  width: 100%; height: 100%; opacity: 0.1; z-index: -1; position: absolute;
+}
+
+#adds{
+  position: fixed;
+  width: 180px;
+  height: 180px;
+  top: 0; right: 0;
+  margin: 50px;
+  border-radius: 50%;
+  background-color: #66B3FF;
+  color: white;
+  padding: 30px 15px;
+  line-height: 15px;
+  text-align: center;
+  border: 3px dashed blue;
+  opacity: 0.9;
+  box-shadow: 5px 5px 10px black;
 }

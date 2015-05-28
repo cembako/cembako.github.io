@@ -22,20 +22,70 @@
 	<div class="container-fluid" id="outer">
 		<div class="row">
 
-				<div id="content">
-					<div class="media">
-						<div class="media-left">
-							<img class="media-object" src="img/apps.png" alt="logo" id="logo" name="logo">
-						</div>
-						<div class="media-body">
-							<h1 class="media-heading">Cembako</h1>
-							<h3>Your daily market price</h3><br>
-							<a class="btn btn-danger" href="/cembako.apk">Download</a>
-							<a href="" type="button">Information</a>
+			<div id="content">
+				<div class="media">
+					<div class="media-left">
+						<img class="media-object" src="img/apps.png" alt="logo" id="logo">
+					</div>
+					<div class="media-body">
+						<h1 class="media-heading">Cembako Apps</h1>
+						<h3><i>Your daily market price</i></h3>		
+						<span>Get our prototype</span>
+						<a class="btn btn-sm btn-danger btn-outline" href="/cembako.apk" type="button">
+							<i class="glyphicon glyphicon-download-alt"></i> Download
+						</a>				
+					</div>					
+				</div>
+
+				<div class="btn-group" id="info">
+					<a class="btn btn-info btn-outline" id="" type="button" href="https://www.facebook.com/cembako" target="new">
+						<i class="glyphicon glyphicon-thumbs-up"></i> Cembako
+					</a>
+
+					<!-- modal trigger -->
+					<a class="btn btn-success btn-outline" id="" type="button" data-toggle="modal" data-target="#myModal">
+						<i class="glyphicon glyphicon-info-sign"></i> Information
+					</a>
+				</div>
+
+				<!-- Modal -->
+				<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					<div class="modal-dialog">						
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								<h4 class="modal-title" id="myModalLabel">Cembako Apps</h4>
+							</div>
+							<div class="modal-body">
+								<img src="img/cembako.png" style="width:100%;margin-bottom:20px;">
+								<b>Cembako</b> Cembako aims to create stability in market price, override the confusion in any crucial moments. It is both giving factual information of the commodities price analyzed by government, at the same time monitoring and ecting price in traditional market reported by society itself. 
+								<hr>
+								<b>Features :</b>
+								<ol>
+									<li>Graph showing updates of official food price in DIY and comparison to the national's.</li>
+									<li>User feedback via social media of the current market conditions in their neighborhood.</li>
+									<li>User input of the food price they are facing at the traditional market.</li>
+									<li>Alert notification when the market price exceed the official threshold national price.</li>
+									<li>List of relevant news that might tell the cause of the abnormal market price.</li>
+								</ol>
+								</p>
+								<hr>
+								<h4><i>Cembako can be a solution for instability of sembako market price.</i></h4>
+								<hr>
+								For more information, follow us on Cembako (Facebook) or call <kbd>+628 988 006 910</kbd> (Yuliawan)
+							</div>						
 						</div>
 					</div>
 				</div>
+			</div>
 		</div>
 	</div>
+
+	<img src="img/pasar.jpg" id="bg">
+
+	<div id="adds">
+		<span>Visit our stand on <b class="text-danger">Gamabox Fair - Startup Incubation Expo.</b><b class="bg-primary">Thursday, May 28 2015 at 10-14.00 WIB Auditorium FMIPA UGM</b></span><br><a href="https://scontent-sin1-1.xx.fbcdn.net/hphotos-xpt1/v/t1.0-9/11164809_390309067837964_1362593866879828354_n.jpg?_nc_eui=AWgwhLZAREPVa6rRo724pgTJY_g83Js1kGRvSA&oh=53a14f1060ac3c77019a776c120247ea&oe=55F6C48B"><i class="glyphicon glyphicon-info-sign"></i></a>
+	</div>
+
 </body>
 </html>
