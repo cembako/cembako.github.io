@@ -22,10 +22,15 @@ body{
   position: absolute;
 }
 
-#content h1, h3, h2, span{
+#content h1, h3, h2, span, a{
   margin-left: 20px;
   vertical-align: middle;
   margin-top: 0;
+  display: block;
+}
+
+#content a{
+  margin-top: 10px;
 }
 
 #content h1{
